@@ -1,0 +1,7 @@
+.heder__list-links {
+    list-style-type: none;
+    display: flex;
+    gap: 32px;
+    padding: 0;
+    margin: 0;
+}

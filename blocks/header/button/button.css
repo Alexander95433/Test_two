@@ -1,0 +1,12 @@
+.button {
+    width: 172px;
+    height: 44px;
+    background: var(--color-button);
+    border-radius: 50px;
+    border: none;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin: 0 31px 0 32px;
+}
