@@ -1,0 +1,10 @@
+.button-page_leave-request-submit {
+    position: relative;
+    bottom: 13px;
+    width: 192px;
+    height: 68px;
+    margin: 0 0 0;
+    padding: 16px 32px;
+    color: white;
+    background-color: var(--color-button);
+ }

@@ -22,7 +22,7 @@
                         <li> <a class="heder__link" href="#" target="top">Контакты</a></li>
                     </ul>
                 </nav>
-                <button class="button">Оставить заявку</button>
+                <button class="button" type="button">Оставить заявку</button>
             </div>
         </div>
 
@@ -84,16 +84,18 @@
                     <p class="portfolio__card-subtitle">Аудит, маркетинг сюда кратко теги</p>
                 </article>
             </div>
-            <button class="button-page">Все кейсы</button>
+            <button class="button-page" type="button">Все кейсы</button>
         </section>
 
         <section class="about-company">
             <h2 class="about-company__title">О компании</h2>
             <ul class="about-company__list-one">
                 <li> <span class="about-company__span-list-one">5</span>отделов</li>
-                <li class="about-company__list-point"> <span class="about-company__span-list-one">5</span>маркетологов</li>
+                <li class="about-company__list-point"> <span class="about-company__span-list-one">5</span>маркетологов
+                </li>
                 <li><span class="about-company__span-list-one">3</span>дизайнера</li>
-                <li class="about-company__list-point"><span class="about-company__span-list-one">3</span>копирайтера</li>
+                <li class="about-company__list-point"><span class="about-company__span-list-one">3</span>копирайтера
+                </li>
                 <li><span class="about-company__span-list-one">7</span>разработчиков</li>
             </ul>
             <div class="about-company__content-box">
@@ -106,20 +108,61 @@
                         В портфолио компании сотни успешных кейсов, способных помочь вам в реализации своей идеи.</p>
                     <ul class="about-company__list-two">
                         <li> <span class="about-company__span-list-two">1000+</span></br>реализованных проектов</li>
-                        <li> <span class="about-company__span-list-two">92</span></br>клиента </br>доверили нам свои проекты</li>
+                        <li> <span class="about-company__span-list-two">92</span></br>клиента </br>доверили нам свои
+                            проекты</li>
                         <li> <span class="about-company__span-list-two">5+</span></br>лет успешной работы</li>
                     </ul>
-                    <button class="button-page button-page_about-company">подробнее</button>
+                    <button class="button-page button-page_about-company" type="button">подробнее</button>
                 </div>
                 <figure class="aboyt-company__figure">
                     <img class="aboyt-company__picture" src="./image/adout-compamy.png" alt="Команда">
                     <figcaption class="aboyt-company__figcaption">Команда агентства «Дрожжи»</figcaption>
                 </figure>
             </div>
-            <section>
+        </section>
 
-                <section class="leave-request"></section>
-                <footer class="footer"></footer>
+        <section class="leave-request">
+            <h2 class="leave-request__title">Оставьте заявку</h2>
+            <div class="leave-request__content-wrapper">
+                <div class="leave-request__content-box">
+                    <article class="leave-request__article">
+                        <img class="leave-request__article-picture" src="./image/face.png" alt="">
+                        <p class="leave-request__article-title">Юлия Дижа</p>
+                        <p class="leave-request__article-subtitle">Поможет запустить ваш проект</p>
+                    </article>
+                    <div class="leave-request__list-wrapper">
+                        <h4 class="leave-request__list-title">Скачать брифинги на:</h4>
+                        <ul class="leave-request__list">
+                            <li> <a class="leave-request__list-link" href="#" target="top">разработку
+                                    логотипа</a></li>
+                            <li> <a class="leave-request__list-link" href="#" target="top">разработку сайта</a>
+                            </li>
+                            <li> <a class="leave-request__list-link" href="#" target="top">разработку
+                                    лендинга</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <form name="request-form" class="leave-request__form" action="">
+                    <fieldset class="leave-request__fieldset">
+                        <label class="leave-request__label leave-request__label_name" for="request-name"> Ваше имя *
+                            <input class="leave-request__input leave-request__input_name" id="request-name" name="name"
+                                minlength="2" maxlength="30" type="text" required>
+                        </label>
+                        <label class="leave-request__label" for="request-contact"> Телефон или мессенджер *
+                            <input class="leave-request__input leave-request__input_contact" id="request-contact"
+                                minlength="2" maxlength="50" name="contact" type="text" required>
+                        </label>
+                        <label class="leave-request__label" for="request-tasks"> Краткое описание задачи *
+                            <input class="leave-request__input leave-request__input_tasks" id="request-tasks"
+                                minlength="10" name="tasks" type="text" required>
+                        </label>
+                        <button class="button-page button-page_leave-request-submit" type="submit">Отправить</button>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+
+        <footer class="footer"></footer>
     </main>
 </body>
 

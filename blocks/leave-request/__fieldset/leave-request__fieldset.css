@@ -1,0 +1,8 @@
+.leave-request__fieldset {
+    width: 100%;
+    border: none;
+    display: flex;
+    gap: 48px;
+    padding: 0;
+    flex-direction: column;
+ }

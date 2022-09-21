@@ -1,0 +1,9 @@
+.leave-request__label {
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #ADB5BD;
+ }

@@ -1,0 +1,5 @@
+.leave-request__form {
+    overflow: hidden;
+    width: 66.5%;
+    text-overflow: ellipsis;
+ }
