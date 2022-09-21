@@ -1,0 +1,7 @@
+.hero__contacts {
+    position: absolute;
+    bottom: 35.5px;
+    right: 32px;
+    display: flex;
+    align-self: end;
+}

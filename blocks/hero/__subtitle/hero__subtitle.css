@@ -1,0 +1,11 @@
+.hero__subtitle {
+    position: absolute;
+    top: 94px;
+    left: 32px;
+    max-width: 212.25px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: start;
+}

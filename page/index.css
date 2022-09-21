@@ -1,25 +1,25 @@
  @import url(../vendor/normalize.css);
  @import url(../vendor/fonts/font-Inter.css);
 
+ /*body*/
+ @import url(../blocks/body/body.css);
+
  /*header*/
  @import url(../blocks/header/heder.css);
  @import url(../blocks/header/__logo/heder__logo.css);
+ @import url(../blocks/header/__content-box/heder__content-box.css);
  @import url(../blocks/header/__box/heder__box.css);
  @import url(../blocks/header/__list-links/heder__list-links.css);
  @import url(../blocks/header/__link/heder__link.css);
  @import url(../blocks/header/button/button.css);
 
- .body {
-     max-width: 1440px;
-     font-family: 'Inter', Arial, Helvetica, sans-serif;
-     font-size: 16px;
-     -moz-osx-font-smoothing: grayscale;
-     -webkit-font-smoothing: antialiased;
-     -webkit-text-size-adjust: 100%;
-     -ms-text-size-adjust: 100%;
-     -moz-text-size-adjust: 100%;
-     text-rendering: optimizeLegibility;
-     --color-button: #D22020;
- }
-
-  
+ /*hero*/
+ @import url(../blocks/hero/hero.css);
+ @import url(../blocks/hero/__img/hero__img.css);
+ @import url(../blocks/hero/__subtitle/hero__subtitle.css);
+ @import url(../blocks/hero/__arrow-wrapper/hero__arrow-wrapper.css);
+ @import url(../blocks/hero/__arrow/hero__arrow.css);
+ @import url(../blocks/hero/__contacts/hero__contacts.css);
+ @import url(../blocks/hero/__contact/hero__contact.css);
+ @import url(../blocks/hero/__contact-img/hero__contact-img.css);
+ 

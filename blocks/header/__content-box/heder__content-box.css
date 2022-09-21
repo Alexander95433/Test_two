@@ -1,0 +1,10 @@
+.heder__content-box {
+    position: fixed;
+    width: 100%;
+    max-width: inherit;
+    height: 93px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+ }
