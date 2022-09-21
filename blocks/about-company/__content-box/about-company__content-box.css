@@ -1,0 +1,6 @@
+.about-company__content-box {
+    display: flex;
+    gap: 21px;
+    padding: 58px 0 0;
+    box-sizing: border-box;
+ }

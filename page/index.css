@@ -33,62 +33,19 @@
  @import url(../blocks/portfolio/__card-picture/portfolio__card-picture.css);
  @import url(../blocks/portfolio/__card-title/portfolio__card-title.css);
  @import url(../blocks/portfolio/__card-subtitle/portfolio__card-subtitle.css);
- @import url(../blocks/portfolio/__button/portfolio__button.css);
- 
+ @import url(../blocks/button-page/button-page.css);
 
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
+/*about-company*/
+@import url(../blocks/about-company/about-company.css);
+@import url(../blocks/about-company/__title/about-company__title.css);
+@import url(../blocks/about-company/__list-one/about-company__list-one.css);
+@import url(../blocks/about-company/__span-list-one/about-company__span-list-one.css);
+@import url(../blocks/about-company/__content-box/about-company__content-box.css);
+@import url(../blocks/about-company/__text-box/about-company__text-box.css);
+@import url(../blocks/about-company/__subtitle/about-company__subtitle.css);
+@import url(../blocks/about-company/__list-two/about-company__list-two.css);
+@import url(../blocks/about-company/__span-list-two/about-company__span-list-two.css);
+@import url(../blocks/about-company/__figure/aboyt-company__figure.css);
+@import url(../blocks/about-company/__picture/aboyt-company__picture.css);
+@import url(../blocks/about-company/__figcaption/aboyt-company__figcaption.css);
+@import url(../blocks/button-page/_about-company/button-page_about-company.css);

@@ -1,0 +1,13 @@
+.about-company__list-one {
+    display: flex;
+    gap: 32px;
+    margin: 58px 0 0;
+    padding: 0;
+    list-style-type: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 120%;
+    letter-spacing: -0.03em;
+    color: var(--color-button);
+ }
