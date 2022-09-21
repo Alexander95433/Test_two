@@ -51,31 +51,31 @@
  @import url(../blocks/button-page/_about-company/button-page_about-company.css);
 
  /* leave-request */
-@import url(../blocks/leave-request/leave-request.css);
-@import url(../blocks/leave-request/__title/leave-request__title.css);
-@import url(../blocks/leave-request/__content-wrapper/leave-request__content-wrapper.css);
-@import url(../blocks/leave-request/__content-box/leave-request__content-box.css);
-@import url(../blocks/leave-request/__article/leave-request__article.css);
-@import url(../blocks/leave-request/__article-picture/leave-request__article-picture.css);
-@import url(../blocks/leave-request/__article-title/leave-request__article-title.css);
-@import url(../blocks/leave-request/__article-subtitle/leave-request__article-subtitle.css);
-@import url(../blocks/leave-request/__list-wrapper/leave-request__list-wrapper.css);
-@import url(../blocks/leave-request/__list-title/leave-request__list-title.css);
-@import url(../blocks/leave-request/__list/leave-request__list.css);
-@import url(../blocks/leave-request/__list-link/leave-request__list-link.css);
-@import url(../blocks/leave-request/__form/leave-request__form.css);
-@import url(../blocks/leave-request/__fieldset/leave-request__fieldset.css);
-@import url(../blocks/leave-request/__label/leave-request__label.css);
-@import url(../blocks/leave-request/__label/_name/leave-request__label_name.css);
-@import url(../blocks/leave-request/__input/leave-request__input.css);
-@import url(../blocks/leave-request/__input/_name/leave-request__input_name.css);
-@import url(../blocks/leave-request/__input/_contact/leave-request__input_contact.css);
-@import url(../blocks/leave-request/__input/_tasks/leave-request__input_tasks.css);
-@import url(../blocks/button-page/_leave-request-submit/button-page_leave-request-submit.css);
+ @import url(../blocks/leave-request/leave-request.css);
+ @import url(../blocks/leave-request/__title/leave-request__title.css);
+ @import url(../blocks/leave-request/__content-wrapper/leave-request__content-wrapper.css);
+ @import url(../blocks/leave-request/__content-box/leave-request__content-box.css);
+ @import url(../blocks/leave-request/__article/leave-request__article.css);
+ @import url(../blocks/leave-request/__article-picture/leave-request__article-picture.css);
+ @import url(../blocks/leave-request/__article-title/leave-request__article-title.css);
+ @import url(../blocks/leave-request/__article-subtitle/leave-request__article-subtitle.css);
+ @import url(../blocks/leave-request/__list-wrapper/leave-request__list-wrapper.css);
+ @import url(../blocks/leave-request/__list-title/leave-request__list-title.css);
+ @import url(../blocks/leave-request/__list/leave-request__list.css);
+ @import url(../blocks/leave-request/__list-link/leave-request__list-link.css);
+ @import url(../blocks/leave-request/__form/leave-request__form.css);
+ @import url(../blocks/leave-request/__fieldset/leave-request__fieldset.css);
+ @import url(../blocks/leave-request/__label/leave-request__label.css);
+ @import url(../blocks/leave-request/__label/_name/leave-request__label_name.css);
+ @import url(../blocks/leave-request/__input/leave-request__input.css);
+ @import url(../blocks/leave-request/__input/_name/leave-request__input_name.css);
+ @import url(../blocks/leave-request/__input/_contact/leave-request__input_contact.css);
+ @import url(../blocks/leave-request/__input/_tasks/leave-request__input_tasks.css);
+ @import url(../blocks/button-page/_leave-request-submit/button-page_leave-request-submit.css);
 
+ /* footer */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__subtitle-list/footer__subtitle-list.css);
+@import url(../blocks/footer/__logo/footer__logo.css); 
 
-
-
-
-
- 
+  
