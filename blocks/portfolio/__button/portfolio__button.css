@@ -1,0 +1,15 @@
+.portfolio__button {
+    width: 248px;
+    height: 72px;
+    margin-top: 74px;
+    border: 1px solid #D22020;
+    background-color: white;
+    border-radius: 56px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: var(--color-button);
+ }
