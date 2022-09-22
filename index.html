@@ -17,12 +17,12 @@
             <div class="heder__box">
                 <nav>
                     <ul class=" heder__list-links">
-                        <li> <a class="heder__link" href="#" target="top">Портфолио</a></li>
-                        <li> <a class="heder__link" href="#" target="top">О компании</a></li>
-                        <li> <a class="heder__link" href="#" target="top">Контакты</a></li>
+                        <li> <a class="heder__link" href="#portfolio"  >Портфолио</a></li>
+                        <li> <a class="heder__link" href="#about-company">О компании</a></li>
+                        <li> <a class="heder__link" href="#">Контакты</a></li>
                     </ul>
                 </nav>
-                <button class="button" type="button">Оставить заявку</button>
+                <a class="heder__button-link" href="#leave-request">Оставить заявку</a>
             </div>
         </div>
 
@@ -46,7 +46,7 @@
             </div>
         </section>
 
-        <section class="portfolio">
+        <section class="portfolio" id="portfolio">
             <div class="portfolio__title-dox">
                 <h1 class="portfolio__title">Портфолио</h1>
                 <a class="portfolio__link" href="#" target="top">смотреть все </a>
@@ -87,7 +87,7 @@
             <button class="button-page" type="button">Все кейсы</button>
         </section>
 
-        <section class="about-company">
+        <section class="about-company" id="about-company">
             <h2 class="about-company__title">О компании</h2>
             <ul class="about-company__list-one">
                 <li> <span class="about-company__span-list-one">5</span>отделов</li>
@@ -121,7 +121,7 @@
             </div>
         </section>
 
-        <section class="leave-request">
+        <section class="leave-request" id="leave-request">
             <h2 class="leave-request__title">Оставьте заявку</h2>
             <div class="leave-request__content-wrapper">
                 <div class="leave-request__content-box">
@@ -142,21 +142,24 @@
                         </ul>
                     </div>
                 </div>
-                <form name="request-form" class="leave-request__form" action="">
+                <form name="request-form" class="leave-request__form" id="formmm" novalidate>
                     <fieldset class="leave-request__fieldset">
-                        <label class="leave-request__label leave-request__label_name" for="request-name"> Ваше имя *
-                            <input class="leave-request__input leave-request__input_name" id="request-name" name="name"
+                        <label class="leave-request__label name-label-error"> Ваше имя *
+                            <input class="leave-request__input   leave-request__input_name" id="request-name" name="name"
                                 minlength="2" maxlength="30" type="text" required>
+                                <span class="leave-request__error-span request-name-error" hidden></span>
                         </label>
-                        <label class="leave-request__label" for="request-contact"> Телефон или мессенджер *
+                        <label class="leave-request__label contact-label-error"> Телефон или мессенджер *
                             <input class="leave-request__input leave-request__input_contact" id="request-contact"
                                 minlength="2" maxlength="50" name="contact" type="text" required>
+                                <span class="leave-request__error-span request-contact-error" hidden></span>
                         </label>
-                        <label class="leave-request__label" for="request-tasks"> Краткое описание задачи *
-                            <input class="leave-request__input leave-request__input_tasks" id="request-tasks"
+                        <label class="leave-request__label tasks-label-error"  > Краткое описание задачи *
+                            <input class="leave-request__input leave-request__input_tasks  " id="request-tasks"
                                 minlength="10" name="tasks" type="text" required>
+                                <span class="leave-request__error-span request-tasks-error" hidden></span>
                         </label>
-                        <button class="button-page button-page_leave-request-submit" type="submit">Отправить</button>
+                        <button class="button-page button-page_leave-request-submit" type="submit" disabled>Отправить</button>
                     </fieldset>
                 </form>
             </div>
@@ -171,6 +174,7 @@
             <img class="footer__logo" src="./image/footer-logo.svg" alt="">
         </footer>
     </main>
+    <script src="./page/index.js"></script>
 </body>
 
 </html>

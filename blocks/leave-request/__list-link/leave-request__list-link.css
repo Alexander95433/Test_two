@@ -13,7 +13,7 @@
 
 .leave-request__list-link::after {
     content: '';
-    background-image: url(../image/leave-request-arrow.svg);
+    background-image: url(../../../image/leave-request-arrow.svg);
     background-position: center;
     background-size: inherit;
     background-repeat: no-repeat;

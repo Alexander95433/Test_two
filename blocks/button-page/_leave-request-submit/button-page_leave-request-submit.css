@@ -7,4 +7,12 @@
     padding: 16px 32px;
     color: white;
     background-color: var(--color-button);
- }
+}
+
+
+.button-page_leave-request-submit:disabled {
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, .2);
+    color: rgba(0, 0, 0, .2);
+    cursor: default;
+}

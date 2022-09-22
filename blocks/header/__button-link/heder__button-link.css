@@ -1,4 +1,8 @@
-.button {
+.heder__button-link {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 172px;
     height: 44px;
     background: var(--color-button);
