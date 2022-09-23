@@ -1,6 +1,9 @@
  @import url(../vendor/normalize.css);
  @import url(../vendor/fonts/font-Inter.css);
 
+ /*html*/
+ @import url(../blocks/html/html.css);
+
  /*body*/
  @import url(../blocks/body/body.css);
 
@@ -12,6 +15,14 @@
  @import url(../blocks/header/__list-links/heder__list-links.css);
  @import url(../blocks/header/__link/heder__link.css);
  @import url(../blocks/header/__button-link/heder__button-link.css);
+ /*header-burger*/ @import url(../blocks/header/__burger/heder__burger.css);
+ @import url(../blocks/header/__logo/_burger/__logo_burger.css);
+ @import url(../blocks/header/__burger-toggle/heder__burger-toggle.css);
+ @import url(../blocks/header/__burger-button/heder__burger-button.css);
+ @import url(../blocks/header/__burger-span/heder__burger-span.css);
+ @import url(../blocks/header/__burger-box/heder__burger-box.css);
+ @import url(../blocks/header/__burger-item/heder__burger-item.css);
+ @import url(../blocks/header/__burger-input/heder__burger-input.css);
 
  /*hero*/
  @import url(../blocks/hero/hero.css);
@@ -66,36 +77,39 @@
  @import url(../blocks/leave-request/__form/leave-request__form.css);
  @import url(../blocks/leave-request/__fieldset/leave-request__fieldset.css);
  @import url(../blocks/leave-request/__label/leave-request__label.css);
- @import url(../blocks/leave-request/__label/_name/leave-request__label_name.css);
+ @import url(../blocks/leave-request/__label/_error/leave-request__label_error.css);
  @import url(../blocks/leave-request/__input/leave-request__input.css);
  @import url(../blocks/leave-request/__input/_name/leave-request__input_name.css);
  @import url(../blocks/leave-request/__input/_contact/leave-request__input_contact.css);
  @import url(../blocks/leave-request/__input/_tasks/leave-request__input_tasks.css);
+ @import url(../blocks/leave-request/__input/_error/leave-request__input_error.css);
+ @import url(../blocks/leave-request/__error-span/leave-request__error-span.css);
  @import url(../blocks/button-page/_leave-request-submit/button-page_leave-request-submit.css);
 
  /* footer */
-@import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/__subtitle-list/footer__subtitle-list.css);
-@import url(../blocks/footer/__logo/footer__logo.css); 
+ @import url(../blocks/footer/footer.css);
+ @import url(../blocks/footer/__subtitle-list/footer__subtitle-list.css);
+ @import url(../blocks/footer/__logo/footer__logo.css);
 
-  .leave-request__error-span{
-    color: red;
-    display: block;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 15px;
-    min-height: 30px;
-  }
 
-  .leave-request__input_error{
-    border-bottom: 1px solid red
-  }
 
-  .leave-request__label-error {
-    color: var(--color-button);
-  }
 
-  html {
-    scroll-behavior: smooth;
-  }
+ 
+
+
+ .main {
+   position: absolute;
+ }
+
+
+
+ @media screen and (max-width: 628px) {
+   .heder__nav {
+     visibility: hidden;
+   }
+
+ }
+
+ 
+
+ 

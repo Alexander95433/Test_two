@@ -2,12 +2,12 @@
     width: 100%;
     display: grid;
     gap: 58px 27px;
-    grid-template-columns: repeat(2, 49%);
+     grid-template-columns: repeat(2, 49%); 
     justify-items: center;
 
 }
 
-@media screen and (max-width: 728px) {
+@media screen and (max-width: 628px) {
     .portfolio__content-box {
         grid-template-columns: repeat(auto-fill, minmax(49%, 1fr));
     }

@@ -1,0 +1,30 @@
+.heder__burger-span {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #616161;
+    transition-duration: .25s;
+  }
+
+  .heder__burger-span::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #616161;
+    top: -8px;
+    transition-duration: .25s;
+  } 
+
+  .heder__burger-span::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #616161;
+    top: 8px;
+    transition-duration: .25s;
+  } 

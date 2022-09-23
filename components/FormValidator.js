@@ -11,14 +11,12 @@ class FormValidator {
     enableValidation() {
         this._addListener();
     };
-
     //Добавляю слушателей к каждому input  
     _addListener() {
         this._disablSubmit();
         this._inputList.forEach((inputElement) => {
             inputElement.addEventListener('input', () => {
                 this._checksValidation(inputElement);
-               
                 this._disablSubmit();
             });
         });
@@ -47,11 +45,9 @@ class FormValidator {
     _addErrorClass(inputElement, errorMessege) {
         const errorElement = this._formElement.querySelector(`.${inputElement.id}-error`);
         const errorLabel = this._formElement.querySelector(`.${inputElement.name}-label-error`);
-        console,console.log(errorLabel);
         errorElement.textContent = errorMessege;
         inputElement.classList.add(`${this.config.inputErrorClass}`);
         errorElement.classList.add(`${this.config.errorClass}`);
-        
         errorLabel.classList.add(`${this.config.labelErrorClass}`);
         errorElement.hidden = false;
     };

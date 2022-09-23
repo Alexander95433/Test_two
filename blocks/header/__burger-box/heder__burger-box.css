@@ -1,0 +1,15 @@
+.heder__burger-box {
+  display: block;
+  position: fixed;
+  visibility: hidden;
+  top: 0;
+  right: -100%;
+  width: 320px;
+  height: 568px;
+  margin: 0;
+  padding: 24px 0 0 24px;
+  list-style: none;
+  background-color: white;
+  box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+  transition-duration: .25s;
+}

@@ -1,0 +1,11 @@
+.heder__burger-button {
+    display: flex; 
+    align-items: center;  
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+  }

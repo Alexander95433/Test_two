@@ -1,5 +1,6 @@
 .about-company__list-one {
     display: flex;
+    flex-wrap: wrap;
     gap: 32px;
     margin: 58px 0 0;
     padding: 0;
@@ -9,5 +10,10 @@
     font-size: 32px;
     line-height: 120%;
     letter-spacing: -0.03em;
-    color: var(--color-button);
+ }
+
+ @media screen and (max-width: 962px) {
+    .about-company__list-one {
+        justify-content: center;
+    }
  }

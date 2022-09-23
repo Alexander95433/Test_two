@@ -1,0 +1,23 @@
+.heder__burger-input:checked~.heder__burger-button>span {
+    transform: rotate(45deg);
+  }
+ 
+  .heder__burger-input:checked~.heder__burger-button>span::before {
+    top: 0;
+    transform: rotate(0);
+  }
+ 
+  .heder__burger-input:checked~.heder__burger-button>span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+ 
+  .heder__burger-input:checked~.heder__burger-box {
+    visibility: visible;
+    right: 0;
+  }
+ 
+  .heder__burger-input:checked~.heder__burger-box {
+    visibility: visible;
+    right: 0;
+  }

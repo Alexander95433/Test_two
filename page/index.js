@@ -1,18 +1,30 @@
 
 //import FormValidator from '../components/FormValidator.js';
+const nav = document.querySelector('.heder__nav')
 const formElement = document.querySelector('.leave-request__form')
- const config = { 
+const config = {
     submitButtonSelector: '.button-page_leave-request-submit',
     inputSelector: '.leave-request__input',
     inputErrorClass: 'leave-request__input_error',
-    label:'.leave-request__label',
-    labelErrorClass: 'leave-request__label-error',
+    label: '.leave-request__label',
+    labelErrorClass: 'leave-request__label_error',
     errorClass: '.leave-request__error-span'
- }
- 
+}
 
 
- class FormValidator {
+// if (window.innerWidth < 800) {
+//     console.log('fdsfsdfsdfsdfds')
+//     nav.hidden = false
+// }
+
+
+
+
+
+
+
+
+class FormValidator {
     constructor(config, formElement) {
         this.config = config;
         this._formElement = formElement;
@@ -20,7 +32,7 @@ const formElement = document.querySelector('.leave-request__form')
         this._buttonElement = this._formElement.querySelector(`${this.config.submitButtonSelector}`);
         this._label = this._formElement.querySelector(`${this.config.label}`)
     };
-    
+
     //Подключаю обработчик к form 
     enableValidation() {
         this._addListener();
@@ -32,7 +44,6 @@ const formElement = document.querySelector('.leave-request__form')
         this._inputList.forEach((inputElement) => {
             inputElement.addEventListener('input', () => {
                 this._checksValidation(inputElement);
-               
                 this._disablSubmit();
             });
         });
@@ -61,11 +72,9 @@ const formElement = document.querySelector('.leave-request__form')
     _addErrorClass(inputElement, errorMessege) {
         const errorElement = this._formElement.querySelector(`.${inputElement.id}-error`);
         const errorLabel = this._formElement.querySelector(`.${inputElement.name}-label-error`);
-        console,console.log(errorLabel);
         errorElement.textContent = errorMessege;
         inputElement.classList.add(`${this.config.inputErrorClass}`);
         errorElement.classList.add(`${this.config.errorClass}`);
-        
         errorLabel.classList.add(`${this.config.labelErrorClass}`);
         errorElement.hidden = false;
     };
@@ -78,7 +87,7 @@ const formElement = document.querySelector('.leave-request__form')
         errorElement.textContent = '';
         inputElement.classList.remove(`${this.config.inputErrorClass}`);
         errorLabel.classList.remove(`${this.config.labelErrorClass}`);
-        
+
     };
 
     //Включаю и выключаю кнопку submit
@@ -87,7 +96,6 @@ const formElement = document.querySelector('.leave-request__form')
 };
 
 
- const validator = new FormValidator(config, formElement)
- validator.enableValidation()
+const validator = new FormValidator(config, formElement)
+validator.enableValidation()
 
- 

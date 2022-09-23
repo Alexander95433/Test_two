@@ -1,4 +1,5 @@
 .heder__list-links {
+    align-items: center;
     list-style-type: none;
     display: flex;
     gap: 32px;

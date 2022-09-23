@@ -14,15 +14,28 @@
     <header class="heder">
         <div class="heder__content-box">
             <img class="heder__logo" src="./image/header-logo.svg" alt="Логотип компании">
-            <div class="heder__box">
-                <nav>
+            <div class="heder__box" >
+                <div class="heder__burger">
+                    <input class="heder__burger-input" id="heder__burger-toggle" type="checkbox" />
+                    <label class="heder__burger-button" for="heder__burger-toggle">
+                    <span class="heder__burger-span"></span>
+                    </label>
+                  <ul class="heder__burger-box">
+                    <li><img class="heder__logo heder__logo_burger" src="./image/header-logo.svg" alt="Логотип компании"></li>
+                    <li><a class="heder__burger-item" href="#portfolio">Портфолио</a></li>
+                    <li><a class="heder__burger-item" href="#about-company">О компании</a></li>
+                    <li><a class="heder__burger-item" href="#">Контакты</a></li>
+                  </ul>
+                </div>
+
+                <nav class="heder__nav" >
                     <ul class=" heder__list-links">
-                        <li> <a class="heder__link" href="#portfolio"  >Портфолио</a></li>
+                        <li> <a class="heder__link" href="#portfolio">Портфолио</a></li>
                         <li> <a class="heder__link" href="#about-company">О компании</a></li>
                         <li> <a class="heder__link" href="#">Контакты</a></li>
+                        <li><a class="heder__button-link" href="#leave-request">Оставить заявку</a></li>
                     </ul>
                 </nav>
-                <a class="heder__button-link" href="#leave-request">Оставить заявку</a>
             </div>
         </div>
 
@@ -38,14 +51,19 @@
             <div class="hero__arrow-wrapper">
                 <img class="hero__arrow" src="./image/hero-arrow.svg" alt="Стрелка">
             </div>
+            <!-- <a class="hero__contact" href="#" target="top"> <img class="hero__contact-img"
+                    src="./image/Vector-Whatsapp.svg" alt="Логотип whatsapp"> whatsapp</a>
+            <a class="hero__contact" href="#" target="top"> <img class="hero__contact-img"
+                    src="./image/Vector-Telegram.svg" alt="Логотип telegram"> telegram</a> -->
+
             <div class="hero__contacts">
                 <a class="hero__contact" href="#" target="top"> <img class="hero__contact-img"
-                        src="./image/Vector-Whatsapp.svg" alt="Логотип whatsapp"> whatsapp</a>
+                    src="./image/Vector-Whatsapp.svg" alt="Логотип whatsapp"> whatsapp</a>
                 <a class="hero__contact" href="#" target="top"> <img class="hero__contact-img"
                         src="./image/Vector-Telegram.svg" alt="Логотип telegram"> telegram</a>
             </div>
         </section>
-
+      
         <section class="portfolio" id="portfolio">
             <div class="portfolio__title-dox">
                 <h1 class="portfolio__title">Портфолио</h1>
@@ -145,21 +163,22 @@
                 <form name="request-form" class="leave-request__form" id="formmm" novalidate>
                     <fieldset class="leave-request__fieldset">
                         <label class="leave-request__label name-label-error"> Ваше имя *
-                            <input class="leave-request__input   leave-request__input_name" id="request-name" name="name"
-                                minlength="2" maxlength="30" type="text" required>
-                                <span class="leave-request__error-span request-name-error" hidden></span>
+                            <input class="leave-request__input   leave-request__input_name" id="request-name"
+                                name="name" minlength="2" maxlength="30" type="text" required>
+                            <span class="leave-request__error-span request-name-error" hidden></span>
                         </label>
                         <label class="leave-request__label contact-label-error"> Телефон или мессенджер *
                             <input class="leave-request__input leave-request__input_contact" id="request-contact"
                                 minlength="2" maxlength="50" name="contact" type="text" required>
-                                <span class="leave-request__error-span request-contact-error" hidden></span>
+                            <span class="leave-request__error-span request-contact-error" hidden></span>
                         </label>
-                        <label class="leave-request__label tasks-label-error"  > Краткое описание задачи *
+                        <label class="leave-request__label tasks-label-error"> Краткое описание задачи *
                             <input class="leave-request__input leave-request__input_tasks  " id="request-tasks"
                                 minlength="10" name="tasks" type="text" required>
-                                <span class="leave-request__error-span request-tasks-error" hidden></span>
+                            <span class="leave-request__error-span request-tasks-error" hidden></span>
                         </label>
-                        <button class="button-page button-page_leave-request-submit" type="submit" disabled>Отправить</button>
+                        <button class="button-page button-page_leave-request-submit" type="submit"
+                            disabled>Отправить</button>
                     </fieldset>
                 </form>
             </div>

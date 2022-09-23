@@ -1,0 +1,13 @@
+.heder__burger-item {
+    display: block;
+    padding: 10px 0 0;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    transition-duration: .25s;
+  }
+  .heder__burger-item:hover {
+    background-color: #CFD8DC;
+  }

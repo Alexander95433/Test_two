@@ -1,7 +1,13 @@
 .about-company__title {
     margin: 0;
-     font-style: normal;
-     font-weight: 600;
-     font-size: 48px;
-     line-height: 130%;
-  }
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 130%;
+}
+
+@media screen and (max-width: 962px) {
+    .about-company__title { 
+        text-align: center;
+    }
+}
