@@ -1,0 +1,13 @@
+.popup__title-zoom-cards {
+    color: white;
+    padding: 10px 0 0 0;
+    margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    max-width: 75vw;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }

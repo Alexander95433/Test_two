@@ -12,9 +12,12 @@ cards.forEach((item) => {
      cardPicture.addEventListener('click', () => {popupWithImage.open(item, cardPicture, cardTitle, cardSubtitle)}) 
 })
 
+
+
+
 const popupWithImage = new PopupWithImage('.popup_zoom-cards');
 popupWithImage.setEventListeners();
-
+console.log(data)
 const validator = new FormValidator(data.config, data.formElement)
 validator.enableValidation()
 

@@ -1,0 +1,13 @@
+.hero__contact_telegram {
+    width: max-content;
+    position: absolute;
+    bottom: 36px;
+    right: 32px;
+  }
+ 
+  @media screen and (max-width: 400px) {
+    .hero__contact_telegram {
+      right: 16px;
+      bottom: 32px;
+    }
+  }

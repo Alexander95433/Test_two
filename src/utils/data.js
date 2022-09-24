@@ -1,7 +1,45 @@
-const formElement = document.querySelector('.leave-request__form')
-// const cards {[
+const formElement = document.querySelector('.leave-request__form');
+import portfolio1 from '../image/portfolio-1.png';
+import portfolio2 from '../image/portfolio-2.png';
+import portfolio3 from '../image/portfolio-3.png';
+import portfolio4 from '../image/portfolio-4.png';
+import portfolio5 from '../image/portfolio-5.png';
+import portfolio6 from '../image/portfolio-6.png';
 
-// ]}
+const dataCards = [
+    {
+        src: portfolio1,
+        title: '«Натали» — Ивановский трикотаж оптом',
+        subtitle: 'Редизайн сайта, поддержка сайта',
+    },
+    {
+        src: portfolio2,
+        title: 'Podium — эротический массаж',
+        subtitle: 'Разработка, редизайн',
+    },
+    {
+        src: portfolio3,
+        title: 'Аудит отдела маркетинга и продаж для Название бренда длинное название...',
+        subtitle: 'Аудит, маркетинг сюда кратко теги',
+    },
+    {
+        src: portfolio4,
+        title: 'Аудит отдела маркетинга и продаж для Название бренда',
+        subtitle: 'Аудит, маркетинг сюда кратко теги',
+    },
+    {
+        src: portfolio5,
+        title: 'Аудит отдела маркетинга и продаж для Название бренда',
+        subtitle: 'Аудит, маркетинг сюда кратко теги',
+    },
+    {
+        src: portfolio6,
+        title: 'Аудит отдела маркетинга и продаж для Название бренда',
+        subtitle: 'Аудит, маркетинг сюда кратко теги',
+    }
+];
+
+console.log(dataCards)
 
 const config = {
     submitButtonSelector: '.button-page_leave-request-submit',
@@ -12,4 +50,4 @@ const config = {
     errorClass: '.leave-request__error-span'
 }
 
- export default {formElement, config};
+export default { formElement, config, dataCards };

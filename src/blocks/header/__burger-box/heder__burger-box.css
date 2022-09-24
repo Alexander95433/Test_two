@@ -14,3 +14,10 @@
   box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
   transition-duration: .25s;
 }
+
+
+@media screen and (max-width:400px) {
+  .heder__burger-box {
+    width: 100%;
+  }
+}
