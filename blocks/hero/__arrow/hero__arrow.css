@@ -4,3 +4,12 @@
     max-width: 19.18px;
     min-height: 17.39px;
 }
+
+
+@media screen and (max-width: 628px) {
+    .hero__arrow {
+        
+      left: 0;
+    }
+  
+  }

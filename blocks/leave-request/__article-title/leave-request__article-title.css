@@ -6,3 +6,9 @@
     line-height: 130%;
     letter-spacing: -0.03em;
  }
+
+ @media screen and (max-width:320px) {
+    .leave-request__article-title {
+        margin: 6px 0 0;
+    }
+}

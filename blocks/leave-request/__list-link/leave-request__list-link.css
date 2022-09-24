@@ -1,4 +1,5 @@
 .leave-request__list-link {
+    width: max-content;
     display: flex;
     align-items: center;
     font-style: normal;

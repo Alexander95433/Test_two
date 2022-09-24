@@ -10,3 +10,20 @@
     color: #ADB5BD;
     list-style-type: none;
  }
+
+ @media screen and (max-width: 628px) {
+    .footer__subtitle-list {
+        text-align: center;
+    }
+  
+  }
+
+ @media screen and (max-width: 387px) {
+    .footer__subtitle-list {
+        flex-direction: column;
+        gap: 16px;
+    }
+  
+  }
+
+  

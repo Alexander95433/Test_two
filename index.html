@@ -14,30 +14,32 @@
     <header class="heder">
         <div class="heder__content-box">
             <img class="heder__logo" src="./image/header-logo.svg" alt="Логотип компании">
-            <div class="heder__box" >
+            <div class="heder__box">
                 <div class="heder__burger">
                     <input class="heder__burger-input" id="heder__burger-toggle" type="checkbox" />
                     <label class="heder__burger-button" for="heder__burger-toggle">
-                    <span class="heder__burger-span"></span>
+                        <span class="heder__burger-span"></span>
                     </label>
-                  <ul class="heder__burger-box">
-                    <li><img class="heder__logo heder__logo_burger" src="./image/header-logo.svg" alt="Логотип компании"></li>
-                    <li><a class="heder__burger-item" href="#portfolio">Портфолио</a></li>
-                    <li><a class="heder__burger-item" href="#about-company">О компании</a></li>
-                    <li><a class="heder__burger-item" href="#">Контакты</a></li>
-                  </ul>
+                    <ul class="heder__burger-box">
+                        <li class="header__list-element"><img class="heder__logo heder__logo_burger" src="./image/header-logo.svg"
+                                alt="Логотип компании"></li>
+                        <li class="header__list-element"><a class="heder__burger-item" href="#portfolio">Портфолио</a></li>
+                        <li class="header__list-element"><a class="heder__burger-item" href="#about-company">О компании</a></li>
+                        <li class="header__list-element"><a class="heder__burger-item" href="#">Контакты</a></li>
+                    </ul>
                 </div>
 
-                <nav class="heder__nav" >
+                <nav class="heder__nav">
                     <ul class=" heder__list-links">
-                        <li> <a class="heder__link" href="#portfolio">Портфолио</a></li>
-                        <li> <a class="heder__link" href="#about-company">О компании</a></li>
-                        <li> <a class="heder__link" href="#">Контакты</a></li>
+                        <li><a class="heder__link" href="#portfolio">Портфолио</a></li>
+                        <li><a class="heder__link" href="#about-company">О компании</a></li>
+                        <li><a class="heder__link" href="#">Контакты</a></li>
                         <li><a class="heder__button-link" href="#leave-request">Оставить заявку</a></li>
                     </ul>
                 </nav>
             </div>
         </div>
+
 
     </header>
 
@@ -49,21 +51,14 @@
             <p class="hero__subtitle">Маркетинговое агентство.
                 С нами вы растете как на дрожжах</p>
             <div class="hero__arrow-wrapper">
-                <img class="hero__arrow" src="./image/hero-arrow.svg" alt="Стрелка">
+               <a href="#footer-link"> <img class="hero__arrow" src="./image/hero-arrow.svg" alt="Стрелка"></a>
             </div>
-            <!-- <a class="hero__contact" href="#" target="top"> <img class="hero__contact-img"
+            <a class="hero__contact hero__contact_whatsapp" href="#" target="top"> <img class="hero__contact-img"
                     src="./image/Vector-Whatsapp.svg" alt="Логотип whatsapp"> whatsapp</a>
-            <a class="hero__contact" href="#" target="top"> <img class="hero__contact-img"
-                    src="./image/Vector-Telegram.svg" alt="Логотип telegram"> telegram</a> -->
-
-            <div class="hero__contacts">
-                <a class="hero__contact" href="#" target="top"> <img class="hero__contact-img"
-                    src="./image/Vector-Whatsapp.svg" alt="Логотип whatsapp"> whatsapp</a>
-                <a class="hero__contact" href="#" target="top"> <img class="hero__contact-img"
-                        src="./image/Vector-Telegram.svg" alt="Логотип telegram"> telegram</a>
-            </div>
+            <a class="hero__contact hero__contact_telegram" href="#" target="top"> <img class="hero__contact-img"
+                    src="./image/Vector-Telegram.svg" alt="Логотип telegram"> telegram</a>
         </section>
-      
+
         <section class="portfolio" id="portfolio">
             <div class="portfolio__title-dox">
                 <h1 class="portfolio__title">Портфолио</h1>
@@ -125,10 +120,13 @@
                         сегодняшний день мы не зависим ни от ниши, ни от географии, ни от специфики продукта.
                         В портфолио компании сотни успешных кейсов, способных помочь вам в реализации своей идеи.</p>
                     <ul class="about-company__list-two">
-                        <li> <span class="about-company__span-list-two">1000+</span></br>реализованных проектов</li>
-                        <li> <span class="about-company__span-list-two">92</span></br>клиента </br>доверили нам свои
+                        <li class="about-company__list-element"> <span
+                                class="about-company__span-list-two">1000+</span></br>реализованных проектов</li>
+                        <li class="about-company__list-element"> <span
+                                class="about-company__span-list-two">92</span></br>клиента доверили нам свои
                             проекты</li>
-                        <li> <span class="about-company__span-list-two">5+</span></br>лет успешной работы</li>
+                        <li class="about-company__list-element"> <span
+                                class="about-company__span-list-two">5+</span></br>лет успешной работы</li>
                     </ul>
                     <button class="button-page button-page_about-company" type="button">подробнее</button>
                 </div>
@@ -142,24 +140,24 @@
         <section class="leave-request" id="leave-request">
             <h2 class="leave-request__title">Оставьте заявку</h2>
             <div class="leave-request__content-wrapper">
-                <div class="leave-request__content-box">
                     <article class="leave-request__article">
                         <img class="leave-request__article-picture" src="./image/face.png" alt="">
                         <p class="leave-request__article-title">Юлия Дижа</p>
                         <p class="leave-request__article-subtitle">Поможет запустить ваш проект</p>
                     </article>
-                    <div class="leave-request__list-wrapper">
-                        <h4 class="leave-request__list-title">Скачать брифинги на:</h4>
-                        <ul class="leave-request__list">
-                            <li> <a class="leave-request__list-link" href="#" target="top">разработку
-                                    логотипа</a></li>
-                            <li> <a class="leave-request__list-link" href="#" target="top">разработку сайта</a>
-                            </li>
-                            <li> <a class="leave-request__list-link" href="#" target="top">разработку
-                                    лендинга</a></li>
-                        </ul>
-                    </div>
+
+                <div class="leave-request__list-wrapper">
+                    <h4 class="leave-request__list-title">Скачать брифинги на:</h4>
+                    <ul class="leave-request__list">
+                        <li> <a class="leave-request__list-link" href="#" target="top">разработку
+                                логотипа</a></li>
+                        <li> <a class="leave-request__list-link" href="#" target="top">разработку сайта</a>
+                        </li>
+                        <li> <a class="leave-request__list-link" href="#" target="top">разработку
+                                лендинга</a></li>
+                    </ul>
                 </div>
+
                 <form name="request-form" class="leave-request__form" id="formmm" novalidate>
                     <fieldset class="leave-request__fieldset">
                         <label class="leave-request__label name-label-error"> Ваше имя *
@@ -184,16 +182,26 @@
             </div>
         </section>
 
-        <footer class="footer">
+        <footer class="footer" id="footer-link">
             <ul class="footer__subtitle-list">
-                <li>2015-2021 © Дрожжи™</li>
+                <li class="footer__subtitle-list-element">2015-2021 © Дрожжи™</li>
                 <li>ООО «РВБ-Маркетинг»</li>
                 <li>Политика конфиденциальности</li>
             </ul>
             <img class="footer__logo" src="./image/footer-logo.svg" alt="">
         </footer>
     </main>
-    <script src="./page/index.js"></script>
+     
+
+    <figure class="popup popup_zoom-cards">
+        <div class="popup__window popup__window_zoom-cards">
+            <button class="popup__close popup__close_zoom-cards" type='button'></button>
+            <img class="popup__picture-zoom-cards" src="#" alt="#">
+            <figcaption class="popup__title-zoom-cards"></figcaption>
+            <figcaption class="popup__subtitle-zoom-cards">ffffffffff</figcaption>
+        </div>
+    </figure>
+    <script type="module" src="./page/index.js"></script>
 </body>
 
 </html>

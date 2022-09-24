@@ -6,3 +6,10 @@
     line-height: 150%;
     color: #495057;
  }
+
+
+ @media screen and (max-width: 740px) {
+   .about-company__subtitle {
+    margin: 0 0 32px;
+   }
+ }

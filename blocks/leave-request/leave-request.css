@@ -1,3 +1,15 @@
 .leave-request {
     padding: 0 35px 151px;
+  
  }
+
+ @media screen and (max-width: 740px) {
+    .leave-request {
+        padding: 0 16px 151px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+ 
+  }
+ 

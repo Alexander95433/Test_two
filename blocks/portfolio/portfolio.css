@@ -5,4 +5,16 @@
     align-items: center;
     padding: 57px 32px 109px;
     box-sizing: border-box;
- }
+}
+
+@media screen and (max-width: 740px) {
+    .portfolio {
+        padding: 57px 16px 109px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .portfolio {
+        padding: 57px 16px 99px;
+    }
+}

@@ -1,8 +1,9 @@
 .heder__burger {
+    transition: 0s;
     visibility: hidden;
  }
 
- @media screen and (max-width: 628px) { 
+ @media screen and (max-width: 700px) { 
     .heder__burger {
         visibility: initial;
      }

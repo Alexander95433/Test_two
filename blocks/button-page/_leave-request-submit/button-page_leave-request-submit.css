@@ -1,9 +1,7 @@
 .button-page_leave-request-submit {
-    position: relative;
-    bottom: 13px;
     width: 192px;
     height: 68px;
-    margin: 0 0 0;
+    margin: 2px 0 0;
     padding: 16px 32px;
     color: white;
     background-color: var(--color-button);
@@ -15,4 +13,16 @@
     border: 1px solid rgba(0, 0, 0, .2);
     color: rgba(0, 0, 0, .2);
     cursor: default;
+}
+
+@media screen and (max-width:740px) {
+    .button-page_leave-request-submit {
+        width: 248px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .button-page_leave-request-submit {
+        align-self: center;
+    }
 }

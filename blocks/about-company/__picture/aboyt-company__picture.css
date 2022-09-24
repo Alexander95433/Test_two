@@ -1,4 +1,14 @@
 .aboyt-company__picture {
     max-width: 100%;
-    min-width: 500px;
- }
+    min-width: 400px;
+    
+} 
+
+@media screen and (max-width: 445px) {
+    .aboyt-company__picture {
+        max-width: 100%;
+        min-width: 100px;
+        
+    } 
+
+} 

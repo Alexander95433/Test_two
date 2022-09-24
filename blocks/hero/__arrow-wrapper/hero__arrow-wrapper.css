@@ -3,3 +3,11 @@
     width: 100%;
     bottom: 46px;
 }
+
+@media screen and (max-width: 837px) {
+    .hero__arrow-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+  
+  }

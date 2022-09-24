@@ -3,3 +3,11 @@
     max-width: 20px;
     min-height: 20px;
 }
+
+@media screen and (max-width: 400px) {
+    .hero__contact-img  {
+        margin-right: 9.6px;
+        max-width: 48px;
+        min-height: 48px;
+    }
+  }

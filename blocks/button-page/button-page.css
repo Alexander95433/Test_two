@@ -13,3 +13,11 @@
     text-transform: uppercase;
     color: var(--color-button);
  }
+
+
+ @media screen and (max-width: 740px) {
+    .button-page {
+        margin-top: 50px;
+    }
+
+} 

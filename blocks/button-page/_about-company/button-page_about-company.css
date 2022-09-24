@@ -1,3 +1,19 @@
 .button-page_about-company {
     margin: 37px 0 76px;
  }
+
+
+ @media screen and (max-width:878px) {
+    .button-page_about-company {
+        margin: 37px 0 32px;
+        align-self: center;
+     }
+    
+ }
+
+ @media screen and (max-width:878px) {
+    .button-page_about-company {
+        margin: 32px 0 32px;
+     }
+    
+ }

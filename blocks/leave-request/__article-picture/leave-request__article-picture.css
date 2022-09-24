@@ -1,3 +1,12 @@
 .leave-request__article-picture {
     max-width: 100%;
- }
+    margin-top: 23px;
+}
+
+@media screen and (max-width: 740px) {
+    .leave-request__article-picture {
+        display: flex;
+        margin: auto;
+    }
+
+}

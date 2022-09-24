@@ -1,4 +1,6 @@
 .leave-request__input_contact {
     max-width: 562px;
+    
+    line-height: 21px;
     margin: 0;
  }

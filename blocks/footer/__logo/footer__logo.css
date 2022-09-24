@@ -3,3 +3,16 @@
     width: 106px;
     height: 48px;
  }
+
+ @media screen and (max-width: 400px) {
+    .footer__logo {
+     object-fit: cover;
+    }
+  
+  }
+  @media screen and (max-width: 387px) {
+    .footer__logo {
+        margin-top: 32px;
+    }
+  
+  }

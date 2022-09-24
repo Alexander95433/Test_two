@@ -1,5 +1,30 @@
 .leave-request__form {
-    overflow: hidden;
-    width: 66.5%;
-    text-overflow: ellipsis;
- }
+   overflow: hidden;
+   width: 100%;
+   text-overflow: ellipsis;
+   grid-area: form;
+}
+
+@media screen and (max-width: 879px) {
+   .leave-request__form {
+      margin-top: 23px;
+   }
+}
+
+@media screen and (max-width: 741px) {
+   .leave-request__form {
+      margin-top: 32px;
+   }
+}
+
+@media screen and (max-width: 628px) {
+   .leave-request__form {
+      width: 100%;
+   }
+}
+
+@media screen and (max-width: 320px) {
+   .leave-request__form {
+      margin-top: 32px;
+   }
+}

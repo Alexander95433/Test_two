@@ -5,3 +5,20 @@
     align-items: center;
     margin-bottom: 42px;
  }
+
+ @media screen and (max-width: 500px) {
+    .portfolio__title-dox {
+        gap: 15px;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+} 
+
+@media screen and (max-width: 320px) {
+    .portfolio__title-dox {
+        gap: 8px;
+        align-items: start;
+    }
+
+} 

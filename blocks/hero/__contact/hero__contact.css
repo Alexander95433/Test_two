@@ -16,3 +16,9 @@
 .hero__contact:last-child {
     margin-left: 34px;
 }
+
+@media screen and (max-width: 400px) {
+    .hero__contact {
+      font-size: 0;
+    }
+}

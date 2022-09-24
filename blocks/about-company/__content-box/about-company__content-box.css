@@ -1,13 +1,22 @@
 .about-company__content-box {
     display: flex;
-    gap: 21px;
     padding: 58px 0 0;
     box-sizing: border-box;
- }
+}
 
- @media screen and (max-width: 628px) {
+
+
+ @media screen and (max-width: 878px) {
     .about-company__content-box { 
-        flex-direction: column-reverse;
-    justify-content: center;
+        flex-direction: column;    
+        align-items: center;
     }
  }
+
+ 
+ @media screen and (max-width: 700px) {
+    .about-company__content-box { 
+        padding: 43px 0 0;
+    }
+ }
+
