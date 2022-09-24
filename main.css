@@ -10,8 +10,8 @@ html{scroll-behavior:smooth}
 .heder__list-links{align-items:center;display:flex;gap:32px;list-style-type:none;margin:0;padding:0}
 .heder__link{color:#000;font-family:Inter;font-style:normal;font-weight:400;line-height:150%;text-decoration:none;transition:.2s linear}.heder__link:hover{opacity:.5;transition:.2s linear}
 .heder__button-link{align-items:center;background:var(--color-button);border:none;border-radius:50px;color:#fff;display:flex;font-style:normal;font-weight:500;height:44px;justify-content:center;line-height:150%;margin:0 31px 0 0;text-decoration:none;transition:.2s linear;width:172px}.heder__button-link:hover{opacity:.85;transition:.2s linear}.heder__button-link:active{opacity:.7;transform:scale(.98);transition:.2s linear}
-@media screen and (max-width:700px){.heder__nav{visibility:hidden}}
-.heder__burger{transition:0s;visibility:hidden}@media screen and (max-width:700px){.heder__burger{visibility:initial}}
+@media screen and (max-width:730px){.heder__nav{visibility:hidden}}
+.heder__burger{transition:0s;visibility:hidden}@media screen and (max-width:730px){.heder__burger{visibility:initial}}
 .heder__logo_burger{margin:0 0 24px}
 #heder__burger-toggle{opacity:0}
 .heder__burger-button{align-items:center;cursor:pointer;display:flex;height:26px;position:fixed;right:20px;top:20px;width:26px;z-index:1}
