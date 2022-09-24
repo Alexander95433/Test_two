@@ -1,4 +1,8 @@
 const formElement = document.querySelector('.leave-request__form')
+// const cards {[
+
+// ]}
+
 const config = {
     submitButtonSelector: '.button-page_leave-request-submit',
     inputSelector: '.leave-request__input',

@@ -6,14 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Дрожжи</title>
-    <link rel="stylesheet" href="./page/index.css">
 </head>
 
 <body class="body">
 
     <header class="heder">
         <div class="heder__content-box">
-            <img class="heder__logo" src="./image/header-logo.svg" alt="Логотип компании">
+            <img class="heder__logo" src="<%=require('./image/header-logo.svg')%>" alt="Логотип компании">
             <div class="heder__box">
                 <div class="heder__burger">
                     <input class="heder__burger-input" id="heder__burger-toggle" type="checkbox" />
@@ -21,10 +20,12 @@
                         <span class="heder__burger-span"></span>
                     </label>
                     <ul class="heder__burger-box">
-                        <li class="header__list-element"><img class="heder__logo heder__logo_burger" src="./image/header-logo.svg"
-                                alt="Логотип компании"></li>
-                        <li class="header__list-element"><a class="heder__burger-item" href="#portfolio">Портфолио</a></li>
-                        <li class="header__list-element"><a class="heder__burger-item" href="#about-company">О компании</a></li>
+                        <li class="header__list-element"><img class="heder__logo heder__logo_burger"
+                                src="<%=require('./image/header-logo.svg')%>" alt="Логотип компании"></li>
+                        <li class="header__list-element"><a class="heder__burger-item" href="#portfolio">Портфолио</a>
+                        </li>
+                        <li class="header__list-element"><a class="heder__burger-item" href="#about-company">О
+                                компании</a></li>
                         <li class="header__list-element"><a class="heder__burger-item" href="#">Контакты</a></li>
                     </ul>
                 </div>
@@ -47,16 +48,17 @@
 
         <section class="hero">
 
-            <img class="hero__img" src="./image/Section-hero.png" alt="">
+            <img class="hero__img" src="<%=require('./image/Section-hero.png')%>" alt="">
             <p class="hero__subtitle">Маркетинговое агентство.
                 С нами вы растете как на дрожжах</p>
             <div class="hero__arrow-wrapper">
-               <a href="#footer-link"> <img class="hero__arrow" src="./image/hero-arrow.svg" alt="Стрелка"></a>
+                <a href="#footer-link"> <img class="hero__arrow" src="<%=require('./image/hero-arrow.svg')%>"
+                        alt="Стрелка"></a>
             </div>
             <a class="hero__contact hero__contact_whatsapp" href="#" target="top"> <img class="hero__contact-img"
-                    src="./image/Vector-Whatsapp.svg" alt="Логотип whatsapp"> whatsapp</a>
+                    src="<%=require('./image/Vector-Whatsapp.svg')%>" alt="Логотип whatsapp"> whatsapp</a>
             <a class="hero__contact hero__contact_telegram" href="#" target="top"> <img class="hero__contact-img"
-                    src="./image/Vector-Telegram.svg" alt="Логотип telegram"> telegram</a>
+                    src="<%=require('./image/Vector-Telegram.svg')%>" alt="Логотип telegram"> telegram</a>
         </section>
 
         <section class="portfolio" id="portfolio">
@@ -66,33 +68,39 @@
             </div>
             <div class="portfolio__content-box">
                 <article class="portfolio__card">
-                    <img class="portfolio__card-picture" src="./image/portfolio-1.png" alt="Изображение товара">
+                    <img class="portfolio__card-picture" src="<%=require('./image/portfolio-1.png')%>"
+                        alt="Изображение товара">
                     <h3 class="portfolio__card-title">«Натали» — Ивановский трикотаж оптом</h3>
                     <p class="portfolio__card-subtitle">Редизайн сайта, поддержка сайта</p>
                 </article>
                 <article class="portfolio__card">
-                    <img class="portfolio__card-picture" src="./image/portfolio-2.png" alt="Изображение товара">
+                    <img class="portfolio__card-picture" src="<%=require('./image/portfolio-2.png')%>"
+                        alt="Изображение товара">
                     <h3 class="portfolio__card-title">Podium — эротический массаж</h3>
                     <p class="portfolio__card-subtitle">Разработка, редизайн</p>
                 </article>
                 <article class="portfolio__card">
-                    <img class="portfolio__card-picture" src="./image/portfolio-3.png" alt="Изображение товара">
+                    <img class="portfolio__card-picture" src="<%=require('./image/portfolio-3.png')%>"
+                        alt="Изображение товара">
                     <h3 class="portfolio__card-title">Аудит отдела маркетинга и продаж для Название бренда длинное
                         название...</h3>
                     <p class="portfolio__card-subtitle">Аудит, маркетинг сюда кратко теги</p>
                 </article>
                 <article class="portfolio__card">
-                    <img class="portfolio__card-picture" src="./image/portfolio-4.png" alt="Изображение товара">
+                    <img class="portfolio__card-picture" src="<%=require('./image/portfolio-4.png')%>"
+                        alt="Изображение товара">
                     <h3 class="portfolio__card-title">Аудит отдела маркетинга и продаж для Название бренда</h3>
                     <p class="portfolio__card-subtitle">Аудит, маркетинг сюда кратко теги</p>
                 </article>
                 <article class="portfolio__card">
-                    <img class="portfolio__card-picture" src="./image/portfolio-5.png" alt="Изображение товара">
+                    <img class="portfolio__card-picture" src="<%=require('./image/portfolio-5.png')%>"
+                        alt="Изображение товара">
                     <h3 class="portfolio__card-title">Аудит отдела маркетинга и продаж для Название бренда</h3>
                     <p class="portfolio__card-subtitle">Аудит, маркетинг сюда кратко теги</p>
                 </article>
                 <article class="portfolio__card">
-                    <img class="portfolio__card-picture" src="./image/portfolio-6.png" alt="Изображение товара">
+                    <img class="portfolio__card-picture" src="<%=require('./image/portfolio-6.png')%>"
+                        alt="Изображение товара">
                     <h3 class="portfolio__card-title">Аудит отдела маркетинга и продаж для Название бренда</h3>
                     <p class="portfolio__card-subtitle">Аудит, маркетинг сюда кратко теги</p>
                 </article>
@@ -131,7 +139,7 @@
                     <button class="button-page button-page_about-company" type="button">подробнее</button>
                 </div>
                 <figure class="aboyt-company__figure">
-                    <img class="aboyt-company__picture" src="./image/adout-compamy.png" alt="Команда">
+                    <img class="aboyt-company__picture" src="<%=require('./image/adout-compamy.png')%>" alt="Команда">
                     <figcaption class="aboyt-company__figcaption">Команда агентства «Дрожжи»</figcaption>
                 </figure>
             </div>
@@ -140,11 +148,11 @@
         <section class="leave-request" id="leave-request">
             <h2 class="leave-request__title">Оставьте заявку</h2>
             <div class="leave-request__content-wrapper">
-                    <article class="leave-request__article">
-                        <img class="leave-request__article-picture" src="./image/face.png" alt="">
-                        <p class="leave-request__article-title">Юлия Дижа</p>
-                        <p class="leave-request__article-subtitle">Поможет запустить ваш проект</p>
-                    </article>
+                <article class="leave-request__article">
+                    <img class="leave-request__article-picture" src="<%=require('./image/face.png')%>" alt="">
+                    <p class="leave-request__article-title">Юлия Дижа</p>
+                    <p class="leave-request__article-subtitle">Поможет запустить ваш проект</p>
+                </article>
 
                 <div class="leave-request__list-wrapper">
                     <h4 class="leave-request__list-title">Скачать брифинги на:</h4>
@@ -188,10 +196,10 @@
                 <li>ООО «РВБ-Маркетинг»</li>
                 <li>Политика конфиденциальности</li>
             </ul>
-            <img class="footer__logo" src="./image/footer-logo.svg" alt="">
+            <img class="footer__logo" src="<%=require('./image/footer-logo.svg')%>" alt="">
         </footer>
     </main>
-     
+
 
     <figure class="popup popup_zoom-cards">
         <div class="popup__window popup__window_zoom-cards">
@@ -201,7 +209,6 @@
             <figcaption class="popup__subtitle-zoom-cards">ffffffffff</figcaption>
         </div>
     </figure>
-    <script type="module" src="./page/index.js"></script>
 </body>
 
 </html>

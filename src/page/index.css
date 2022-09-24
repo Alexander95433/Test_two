@@ -16,7 +16,7 @@
  @import url(../blocks/header/__link/heder__link.css);
  @import url(../blocks/header/__button-link/heder__button-link.css);
  /*header-burger*/
-  @import url(../blocks/header/__burger/heder__burger.css);
+ @import url(../blocks/header/__burger/heder__burger.css);
  @import url(../blocks/header/__logo/_burger/__logo_burger.css);
  @import url(../blocks/header/__burger-toggle/heder__burger-toggle.css);
  @import url(../blocks/header/__burger-button/heder__burger-button.css);
@@ -104,41 +104,39 @@
 
 
  .hero__contact_whatsapp {
-  width: max-content;
-  position: absolute;
-  bottom: 35px;
-  right: 194px;
+   width: max-content;
+   position: absolute;
+   bottom: 35px;
+   right: 194px;
  }
- @media screen and (max-width: 837px) {
-  .hero__contact_whatsapp {
-    left: 32px;
-  }
-}
 
-  @media screen and (max-width: 400px) {
-    .hero__contact_whatsapp {
-      left: auto;
-      right: 72px;
-      bottom: 32px;
-    }
-  }
+ @media screen and (max-width: 837px) {
+   .hero__contact_whatsapp {
+     left: 32px;
+   }
+ }
+
+ @media screen and (max-width: 400px) {
+   .hero__contact_whatsapp {
+     left: auto;
+     right: 72px;
+     bottom: 32px;
+   }
+ }
 
  .hero__contact_telegram {
-  width: max-content;
-  position: absolute;
-  bottom: 36px;
-  right: 32px;
+   width: max-content;
+   position: absolute;
+   bottom: 36px;
+   right: 32px;
  }
+
  @media screen and (max-width: 400px) {
-  .hero__contact_telegram {
-    right: 16px;
-    bottom: 32px;
-  }
-}
-
-
-
-
+   .hero__contact_telegram {
+     right: 16px;
+     bottom: 32px;
+   }
+ }
 
  .main {
    position: absolute;
@@ -146,48 +144,33 @@
 
 
  .about-company__list-element {
-  width: 260px;
+   width: 260px;
  }
- /* @media screen and (max-width: 400px) {
-  .about-company__list-element {
-    max-width: 260px;
-   }
-
-}  */
- 
-
-
 
  @media screen and (max-width: 700px) {
    .heder__nav {
      visibility: hidden;
    }
-
  }
 
- @media screen and (max-width: 400px) {
-   
 
-} 
- 
- 
-.popup__title-zoom-cards {
- 
-    color: white;
-    padding: 10px 0 0 0;
-    margin: 0;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
-    max-width: 75vw;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
+ .popup__title-zoom-cards {
 
-@media screen and (max-width:320px) {
-    .popup-zoom-cards__subtitle {
-        max-width: 240px;
-    }
-}
+   color: white;
+   padding: 10px 0 0 0;
+   margin: 0;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 15px;
+   line-height: 20px;
+   max-width: 75vw;
+   overflow: hidden;
+   text-overflow: ellipsis;
+ }
+
+ @media screen and (max-width:320px) {
+   .popup-zoom-cards__subtitle {
+     max-width: 240px;
+   }
+ }

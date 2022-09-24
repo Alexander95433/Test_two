@@ -1,3 +1,4 @@
+import '../page/index.css';
 import data from '../utils/data.js';
 import FormValidator from '../components/FormValidator.js';
 import PopupWithImage from '../components/PopupWithImage.js';
