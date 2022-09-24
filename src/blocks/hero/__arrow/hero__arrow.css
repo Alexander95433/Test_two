@@ -1,15 +1,21 @@
 .hero__arrow {
-    position: relative;
-    left: 19px;
-    max-width: 19.18px;
-    min-height: 17.39px;
+  position: relative;
+  left: 19px;
+  max-width: 19.18px;
+  min-height: 17.39px;
+  transition: .2s linear;
 }
 
+.hero__arrow:hover {
+  transform: scale(1.2);
+  transition: .2s linear;
+
+}
 
 @media screen and (max-width: 628px) {
-    .hero__arrow {
-        
-      left: 0;
-    }
-  
+  .hero__arrow {
+
+    left: 0;
   }
+
+}

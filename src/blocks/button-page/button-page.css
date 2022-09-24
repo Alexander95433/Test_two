@@ -12,12 +12,23 @@
     letter-spacing: 0.02em;
     text-transform: uppercase;
     color: var(--color-button);
- }
+    cursor: pointer;
+    transition: .1s linear;
+}
 
+.button-page:hover {
+    transform: scale(.97);
+    transition: .2s linear;
+}
 
- @media screen and (max-width: 740px) {
+.button-page:active {
+    transition: .1s linear;
+    transform: scale(0.98);
+}
+
+@media screen and (max-width: 740px) {
     .button-page {
         margin-top: 50px;
     }
 
-} 
+}

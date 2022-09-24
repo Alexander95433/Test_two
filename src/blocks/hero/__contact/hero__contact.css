@@ -13,12 +13,17 @@
     padding: 0;
 }
 
+.hero__contact:hover {
+    opacity: .5;
+    transition: .2s linear;
+}
+
 .hero__contact:last-child {
     margin-left: 34px;
 }
 
 @media screen and (max-width: 400px) {
     .hero__contact {
-      font-size: 0;
+        font-size: 0;
     }
 }

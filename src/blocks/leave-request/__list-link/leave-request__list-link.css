@@ -8,9 +8,16 @@
     line-height: 30px;
     color: var(--color-button);
     text-decoration: none;
-    border-bottom: 1px solid rgba(210, 32, 32, 0.2); 
+    border-bottom: 1px solid rgba(210, 32, 32, 0.2);
     padding: 8px 0 5px;
- }
+    transition: .2s linear;
+}
+
+.leave-request__list-link:hover {
+    transform: scale(.97);
+    opacity: .7;
+    transition: .2s linear;
+}
 
 .leave-request__list-link::after {
     content: '';
@@ -21,4 +28,4 @@
     width: 16px;
     height: 16px;
     margin-left: 4px;
- }
+}

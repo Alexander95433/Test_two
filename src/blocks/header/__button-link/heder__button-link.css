@@ -13,4 +13,16 @@
     line-height: 150%;
     color: #FFFFFF;
     margin: 0 31px 0 0;
+    transition: .2s linear;
+}
+
+.heder__button-link:hover {
+    opacity: .85;
+    transition: .2s linear;
+}
+
+.heder__button-link:active {
+    opacity: .7;
+    transform: scale(0.98);
+    transition: .2s linear;
 }

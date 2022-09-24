@@ -7,7 +7,7 @@ class FormValidator {
         this._buttonElement = this._formElement.querySelector(`${this.config.submitButtonSelector}`);
         this._label = this._formElement.querySelector(`${this.config.label}`)
     };
-    
+
     //Подключаю обработчик к form 
     enableValidation() {
         this._addListener();
@@ -61,7 +61,7 @@ class FormValidator {
         errorElement.textContent = '';
         inputElement.classList.remove(`${this.config.inputErrorClass}`);
         errorLabel.classList.remove(`${this.config.labelErrorClass}`);
-        
+
     };
 
     //Включаю и выключаю кнопку submit

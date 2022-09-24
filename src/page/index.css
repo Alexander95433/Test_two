@@ -8,7 +8,7 @@
  @import url(../blocks/body/body.css);
 
  /*main*/
- @import url(../blocks/main/main.css); 
+ @import url(../blocks/main/main.css);
 
  /*header*/
  @import url(../blocks/header/heder.css);
@@ -53,7 +53,7 @@
  @import url(../blocks/portfolio/__card-subtitle/portfolio__card-subtitle.css);
  @import url(../blocks/button-page/button-page.css);
  @import url(../blocks/portfolio/__card/_three/portfolio__card_three.css);
- @import url(../blocks/portfolio/__card/_four/portfolio__card_four.css); 
+ @import url(../blocks/portfolio/__card/_four/portfolio__card_four.css);
  @import url(../blocks/portfolio/__card/_five/portfolio__card_five.css);
  @import url(../blocks/portfolio/__card/_six/portfolio__card_six.css);
  @import url(../blocks/portfolio/__card-picture-link-box/portfolio__card-picture-link-box.css);
@@ -116,16 +116,3 @@
  @import url(../blocks/popup/__subtitle-zoom-cards/popup__subtitle-zoom-cards.css);
  @import url(../blocks/popup/_visible/popup_visible.css);
  @import url(../blocks/popup/__title-zoom-cards/popup__title-zoom-cards.css);
-
-  
-
-
-
-
-  
-
-
-
-
-
- 

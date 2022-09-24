@@ -5,4 +5,11 @@
     font-weight: 400;
     line-height: 150%;
     color: black;
+    transition: .2s linear;
+}
+
+.heder__link:hover {
+    opacity: .5;
+    transition: .2s linear;
+
 }
