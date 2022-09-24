@@ -3,7 +3,7 @@
     visibility: hidden;
  }
 
- @media screen and (max-width: 700px) { 
+ @media screen and (max-width: 730px) { 
     .heder__burger {
         visibility: initial;
      }
