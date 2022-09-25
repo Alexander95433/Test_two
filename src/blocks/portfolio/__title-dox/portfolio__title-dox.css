@@ -15,10 +15,11 @@
 
 } 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 350px) {
     .portfolio__title-dox {
-        gap: 8px;
         align-items: start;
+        gap: 8px;
+        margin-bottom: 39px;
     }
 
 } 

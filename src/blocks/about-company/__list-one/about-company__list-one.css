@@ -12,7 +12,7 @@
     letter-spacing: -0.03em;
 }
 
-@media screen and (max-width: 962px) {
+@media screen and (max-width: 968px) {
     .about-company__list-one {
         justify-content: center;
     }
@@ -25,7 +25,7 @@
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 563px) {
     .about-company__list-one {
         flex-direction: column;
         gap: 32px; 

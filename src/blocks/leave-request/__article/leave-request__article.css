@@ -10,7 +10,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 340px) {
     .leave-request__article {
         width: 100%;
         text-align: left;

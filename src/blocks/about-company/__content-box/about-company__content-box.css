@@ -6,7 +6,7 @@
 
 
 
- @media screen and (max-width: 878px) {
+ @media screen and (max-width: 968px) {
     .about-company__content-box { 
         flex-direction: column;    
         align-items: center;

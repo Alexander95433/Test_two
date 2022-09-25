@@ -12,7 +12,7 @@
     color: #495057;
  }
 
- @media screen and (max-width: 500px) {
+ @media screen and (max-width: 538px) {
     .about-company__list-two {
         flex-wrap: wrap;
      }

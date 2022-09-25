@@ -18,7 +18,7 @@
   
   }
 
- @media screen and (max-width: 387px) {
+ @media screen and (max-width: 405px) {
     .footer__subtitle-list {
         flex-direction: column;
         gap: 16px;

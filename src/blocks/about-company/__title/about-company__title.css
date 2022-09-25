@@ -6,8 +6,14 @@
     line-height: 130%;
 }
 
-@media screen and (max-width: 962px) {
+@media screen and (max-width: 968px) {
     .about-company__title { 
         text-align: center;
+    }
+}
+
+@media screen and (max-width: 405px) {
+    .about-company__title { 
+        font-size: 45px;
     }
 }
